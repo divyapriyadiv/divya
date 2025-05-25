@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* 
+. -> class
+# -> id 
+*/
+
+/* --------------  nav bar ------------- */
+.nav-content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.nav-content .title{
+    text-align: center;
+}
+
+.nav-content .options {
+    display: flex;
+    width: 50%;
+}
+.nav-content .options > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-content .resume{
+    display: flex;
+    align-items: center;
+    width:10%;
+}
+
+.my-nav .nav-content .options a{
+    text-decoration: none;
+    color: black;
+}
+
+.my-nav .nav-content .options a:hover{
+    color: grey;
+}
+.nav-content .resume .resume-btn button{
+    background-color: black;
+    height: 30px;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+/* --------------  nav bar ------------- */
+
+
+/* --------------  carosel ------------- */
+
+.carosel{
+    /* background-color: aqua; */
+    font-size: x-large;
+}
+
+.carosel .main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carosel .main-content .text-content{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.carosel .main-content .text-content .sub-content{
+    margin-top: 20px;
+}
+
+.carosel .main-content .img-content{
+    background-position: bottom right;
+}
+
+.carosel .main-content .text-content .share{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.carosel .main-content .text-content .share img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* --------------  carosel ------------- */
+
+
+/* --------------  my skills ------------- */
+
+.my-skills{
+    /* background-color: aquamarine; */
+    padding-bottom: 50px;
+}
+
+.my-skills .title{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.my-skills .content-skill .skill-content-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.my-skills .content-skill .skill-content-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.my-skills .content-skill .skills{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-skills .content-skill .skills h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.my-skills .content-skill .skills img{
+    height: 40px;
+    width: 40px;
+}   
+
+
+/* --------------  my skills ------------- */
+
+
+/* --------------  my Experience ------------- */
+
+.experience{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.experience .title{
+    padding-top: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.experience .content-top{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+.experience .exp-content{
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.experience .content-top .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience .content-top .left .company{
+    margin-left: 20px;
+}
+
+.experience .content-top .datetime{
+    display: flex;
+    align-items: center;
+}
+
+.experience .content-top .left .logo img{
+    height: 30px;
+    width: 30px;
+}
+
+.experience .exp-content .explain{
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    margin-top: 10px;
+}
+
+.experience .exp-content:hover{
+    border: 1px solid transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+
+/* --------------  my Experience ------------- */
+
+
+/* --------------  my projects ------------- */
+
+.projects{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.projects .title{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.projects .explain{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.projects .explain .image img{
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+}
+.projects .explain .content{
+    margin-left: 50px;
+}
+
+.projects .explain .content .num{
+    font-size: 40px;
+}
+
+.projects .explain .content .heading{
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.projects .explain .content .disc{
+    padding-top: 15px;
+    font-size: 15px;
+    color: grey;
+}
+
+/* --------------  my projects ------------- */
+
+
+
+
+/* --------------  about me------------- */
+
+.about-me .main-content{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about-me .main-content .img-content{
+    margin-right: 60px;
+}
+.about-me .text-content .title{
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+.about-me .text-content{
+    margin-top: 50px;
+}
+
+.about-me .text-content .content-1{
+    font-size:18px;
+    margin-top: 20px;
+}
+
+.about-me .text-content .content-2{
+    font-size:18px;
+    margin-top: 20px;
+}
+
+.about-me .text-content .content-3{
+    font-size:18px;
+    margin-top: 20px;
+}
+
+/* --------------  about me------------- */
